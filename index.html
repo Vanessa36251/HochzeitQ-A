@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Hochzeit - FAQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&family=Style+Script&display=swap" rel="stylesheet">
+    <style>
+        
+        :root {
+            --primary-color: #590C1C; /* Ein schönes Gold-Braun */
+            --bg-color: #298A93;
+            --text-color: #283618;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+       /* 1. Den weißen Block verbreitern */
+        .container {
+        max-width: 900px; /* Hier von 600px auf 900px (oder dein Wunschmaß) erhöhen */
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .hero-image {
+        display: block;
+        margin: 0 auto 20px auto;
+    
+        /* 1. Breite verringern (z.B. auf 60% des weißen Blocks) */
+        width: 100%; 
+    
+        /* 2. Maximale Höhe festlegen (damit es nicht so hoch ragt) */
+        max-height: 250px; 
+    
+        /* 3. WICHTIG: Sorgt dafür, dass das Bild nicht gequetscht wird */
+        object-fit: cover; 
+
+        object-position: 80% 43%; 
+    
+        border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            font-family: "Style Script", cursive;
+        }
+        
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+        }
+
+        details summary {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        details summary::after {
+            content: "＋";
+            color: var(--primary-color);
+        }
+
+        details[open] summary::after {
+            content: "－";
+        }
+
+        details p {
+            padding: 10px;
+            margin: 0;
+            font-size: 0.95em;
+            color: #555;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8em;
+            opacity: 0.7;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="Blumen.png" alt="Wir beide" class="hero-image">
+    <h1>Fragen & Antworten</h1>
+    <p style="text-align: center;">Wir freuen uns auf euch! Hier sind die wichtigsten Infos:</p>
+
+    <div class="faq-item">
+        <details>
+            <summary>Wo und wann findet die Feier statt?</summary>
+            <p>Am 17.10. starten wir um 14:00 Uhr im Gemeindezentrum Künzell (Hahlweg 32-36, 36093 Künzell).
+                Wir freuen uns sehr, diesen besonderen Tag gemeinsam mit euch zu verbringen. Parkplätze sind dort genügend vorhanden.</p>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <details>
+            <summary>Was ist der Dresscode?</summary>
+            <p>Einen festen Dresscode gibt es nicht.
+                Kommt einfach so, wie ihr euch wohl fühlt.</p>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <details>
+            <summary>Bis wann muss ich zu- oder absagen?</summary>
+            <p>Bitte gebt uns bis spätestens 15.04. per WhatsApp unter (Nummer) Bescheid, ob ihr dabei sein könnt.</p>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <details>
+            <summary>Was wünscht ihr euch?</summary>
+            <p>Das größte Geschenk für uns ist, diesen Tag gemeinsam mit euch zu feiern.
+                Wenn ihr uns darüber hinaus eine Freude machen möchtet, freuen wir uns sehr über einen Beitrag zu unserer Hochzeitsreise.
+                Da wir russisch-deutsch feiern, gehört bei uns auch ein kleines traditionelles Geldspiel dazu – denkt daher bitte daran, etwas Bargeld in kleinen Scheinen mitzubringen</p>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <details>
+            <summary>Wie ist der Ablauf des Tages?</summary>
+            <p>Bitte frühstückt zu Hause noch einmal gut, denn wir beginnen um 14:00 Uhr mit einem Sektempfang und kleinen Häppchen.
+                Das Festessen ist für ca. 16:00 Uhr geplant. Danach lassen wir den Tag mit guter Stimmung, Musik und gemeinsamen Momenten starten</p>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <details>
+            <summary>Gibt es Übernachtungsmöglichkeiten?</summary>
+            <p>Für alle, die von weiter weg anreisen oder abends nicht mehr nach Hause fahren möchten, gibt es in der Nähe gute Übernachtungsmöglichkeiten.
+                Das Landhotel Reith ist fußläufig erreichbar, alternativ bietet sich das Agenda Living an.
+                Unsere Location selbst verfügt leider über keine Übernachtungsmöglichkeiten.
+                Am nächsten Morgen laden wir alle, die möchten, herzlich zu einem gemeinsamen Resteessen ein.</p>
+        </details>
+    </div>
+
+    <div class="footer">
+        Bis bald!
+        Vanessa und Dennis
+    </div>
+</div>
+
+</body>
+</html>
