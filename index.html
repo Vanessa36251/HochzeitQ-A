@@ -52,6 +52,25 @@
         border-radius: 10px;
         }
 
+        }
+
+        /*FÜR DAS HANDY (Bildschirme schmaler als 600px) */
+        @media (max-width: 600px) {
+        .container {
+        width: 90%; /* Der weiße Block nutzt fast die ganze Breite */
+        padding: 15px; /* Weniger Platz am Rand innen */
+    }
+
+    .hero-image {
+        width: 40%; /* Das Bild wird auf dem Handy noch schmaler */
+        max-height: 180px; /* Und weniger hoch, damit man nicht so viel scrollen muss */
+    }
+
+    h1 {
+        font-size: 2rem; /* Die Schrift wird etwas kleiner, damit sie nicht umbricht */
+    }
+}
+
         h1 {
             text-align: center;
             color: var(--primary-color);
